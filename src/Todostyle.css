@@ -1,0 +1,57 @@
+* {
+  font-family: "Inter";
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(to right, #d3f5cf 0%, #a8dbfa 50%, #635ee2 100%);
+}
+
+form {
+  margin: 20px;
+}
+
+button {
+  cursor: pointer;
+  background-color: #a8dbfa;
+  padding: 0.75rem 1.25rem;
+  border: none;
+  border-radius: 10px;
+  margin: 10px;
+  transition: background-color 0.5s ease-out;
+}
+
+button:hover {
+  background-color: #635ee2;
+  font-weight: bold;
+}
+
+input {
+  width: 15rem;
+  height: 2rem;
+  border-radius: 10px;
+  font-size: 1rem;
+  border: 1px solid #aaa;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  box-shadow: 5px 5px 50px 5px #aaa;
+}
+
+.todo {
+  width: 60%;
+  text-align: center;
+  border: 1px solid #aaa;
+  margin: 1rem auto;
+  padding: 1rem 1rem;
+  border-radius: 15px;
+  font-weight: bold;
+  background-color: rgba(85, 85, 85, 0.75);
+}
+
+span {
+  flex: 1 0 auto;
+  word-wrap: break-word;
+}
